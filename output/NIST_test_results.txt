@@ -1,0 +1,46 @@
+The statistical test of the PRNG Output
+
+2.01. Frequency Test:                               (np.float64(0.9251091567373925), np.True_)
+2.02. Block Frequency Test:                         (np.float64(0.8626071386825345), np.True_)
+2.03. Run Test:                                     (np.float64(0.23482992440078787), np.True_)
+2.04. Run Test (Longest Run of Ones):              (np.float64(0.1859209941191514), np.True_)
+2.05. Binary Matrix Rank Test:                     (0.6069923485724007, True)
+2.06. Discrete Fourier Transform (Spectral) Test:  (np.float64(0.36848773446662464), np.True_)
+2.07. Non-overlapping Template Matching Test:      (np.float64(0.7245525686495642), np.True_)
+2.08. Overlapping Template Matching Test:         (np.float64(0.9704926045559709), np.True_)
+2.09. Universal Statistical Test:                  (np.float64(0.3708844286614875), np.True_)
+2.10. Linear Complexity Test:                      (np.float64(0.26052524838934976), np.True_)
+2.11. Serial Test:                                 ((np.float64(0.09464396029400028), np.True_), (np.float64(0.18990094857479373), np.True_))
+2.12. Approximate Entropy Test:                    (np.float64(0.7990766538630545), np.True_)
+2.13. Cumulative Sums (Forward):                   (np.float64(0.9275795414788561), np.True_)
+2.13. Cumulative Sums (Backward):                  (np.float64(0.9512110797728387), np.True_)
+2.14. Random Excursion Test:
+		 STATE 			 xObs 			 P-Value 			 Conclusion
+		 '-4' 		 4.045538993915843 		 np.float64(0.5428782692953791) 		 True
+		 '-3' 		 7.956090618485065 		 np.float64(0.1586722202019104) 		 True
+		 '-2' 		 3.129290745459381 		 np.float64(0.6800608040889903) 		 True
+		 '-1' 		 6.527449617790133 		 np.float64(0.2582215977018457) 		 True
+		 '+1' 		 0.8999305072967339 		 np.float64(0.970226669263147) 		 True
+		 '+2' 		 2.3541296682366872 		 np.float64(0.7982849453973028) 		 True
+		 '+3' 		 5.775109381514944 		 np.float64(0.3287204323944142) 		 True
+		 '+4' 		 2.3957469076325912 		 np.float64(0.7921073212130592) 		 True
+2.15. Random Excursion Variant Test:
+		 STATE 		 COUNTS 			 P-Value 		 Conclusion
+		 '-9.0' 		 1280 		 np.float64(0.4722445744454129) 		 True
+		 '-8.0' 		 1275 		 np.float64(0.4299253011917892) 		 True
+		 '-7.0' 		 1298 		 np.float64(0.46602783156743544) 		 True
+		 '-6.0' 		 1244 		 np.float64(0.27309830049111894) 		 True
+		 '-5.0' 		 1200 		 np.float64(0.13753947839752445) 		 True
+		 '-4.0' 		 1217 		 np.float64(0.1177991230352338) 		 True
+		 '-3.0' 		 1283 		 np.float64(0.19344622622627217) 		 True
+		 '-2.0' 		 1376 		 np.float64(0.49776690886825925) 		 True
+		 '-1.0' 		 1413 		 np.float64(0.6279248486109039) 		 True
+		 '+1.0' 		 1461 		 np.float64(0.68174123937399) 		 True
+		 '+2.0' 		 1409 		 np.float64(0.7468007132191643) 		 True
+		 '+3.0' 		 1353 		 np.float64(0.4734261516313496) 		 True
+		 '+4.0' 		 1401 		 np.float64(0.788910884041286) 		 True
+		 '+5.0' 		 1466 		 np.float64(0.8667694487044615) 		 True
+		 '+6.0' 		 1428 		 np.float64(0.9507036882999973) 		 True
+		 '+7.0' 		 1386 		 np.float64(0.7840806285154505) 		 True
+		 '+8.0' 		 1407 		 np.float64(0.8775990453953914) 		 True
+		 '+9.0' 		 1393 		 np.float64(0.8352571461332692) 		 True

@@ -1,0 +1,16 @@
+Encryption Security Analysis Report
+=================================
+
+Original Image Entropy: 7.2575
+Encrypted Image Entropy: 7.2574
+
+Correlation Coefficients:
+ - Original horizontal: 0.9700
+ - Encrypted horizontal: 0.0524
+ - Original vertical: 0.9848
+ - Encrypted vertical: 0.0485
+ - Original diagonal: 0.9572
+ - Encrypted diagonal: 0.0433
+
+NPCR: 98.7534%
+UACI: 49.2527%
