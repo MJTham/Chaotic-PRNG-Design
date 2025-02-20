@@ -1,0 +1,6 @@
+numpy
+Pillow
+matplotlib
+scipy
+hashlib
+randomness_testsuite
