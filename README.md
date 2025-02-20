@@ -22,8 +22,8 @@ This project implements a chaotic Pseudo-Random Number Generator (PRNG) based on
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/MJTham/PRNG.git
-   cd PRNG
+   git clone https://github.com/MJTham/Chaotic-PRNG-Design.git
+   cd Chaotic-PRNG-Design
 
 ## Usage
 1. python lcg_prng.py
