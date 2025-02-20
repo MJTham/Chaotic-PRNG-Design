@@ -30,7 +30,7 @@ This project implements a chaotic Pseudo-Random Number Generator (PRNG) based on
    ```bash
    python lcg_prng.py
    
-2.To encrypt image. Please keep your image into the folder named <images_to_encrypt>
+2. To encrypt image. Please keep your image into the folder named <images_to_encrypt>
   Once the encryption completes, all of the encrypted and decrpyted images, histogram and grayscale image will be keep in output\<image_name>_result
    ```bash
    python image_encryption.py
