@@ -2,7 +2,7 @@
 
 This project implements a chaotic Pseudo-Random Number Generator (PRNG) based on the Logistic Map and uses it for image encryption. The application shuffles pixel positions and modifies grey levels using AES S-Box transformation, enhancing security and randomness.
 
-**formula**
+**Formula **
 ![Logistic Map Equation](https://latex.codecogs.com/png.latex?x_{n+1}=r%20\cdot%20x_n%20\cdot%20(1-x_n))
 
 ## Features
