@@ -26,22 +26,27 @@ This project implements a chaotic Pseudo-Random Number Generator (PRNG) based on
    cd Chaotic-PRNG-Design
 
 ## Usage
-1. python lcg_prng.py
-   To generate PRNG output.
+1. To generate PRNG output.
    The result (prng_output.bin) will keep into output\
+   ```bash
+   python lcg_prng.py
+   
+2.To encrypt image. 
+   Once the encryption completes, all of the encrypted and decrpyted images, histogram and grayscale image will be keep in output/<image_name>_result
+   ```bash
+   python image_encryption.py
+   
+3. To run NIST test result. 
+   The NIST result (NIST_test_results.txt) keep in output\ folder 
+   ```bash
+   python NIST_test.py
+   
 
-2. python image_encryption.py
-   To encrypt image. 
-   Once the encryption completes, all of the encrypted and decrpyted images, histogram and grayscale image will be keep in output/<image_name>_result\
-
-3. python NIST_test.py
-   To run NIST test result. 
-   The NIST result (NIST_test_results.txt) keep in output\ folder
-
-4. python analysis.py
-   To analyse security metrics
+6. To analyse security metrics
    The analysis result (txt format) will keep within the <image_name>_result folder.
-
+   ```bash
+   python analysis.py
+   
 ## NIST Test GitHub Main Repository
 https://github.com/stevenang/randomness_testsuite
 
