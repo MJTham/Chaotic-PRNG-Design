@@ -14,12 +14,11 @@ This project implements a chaotic Pseudo-Random Number Generator (PRNG) based on
 - Python 3.x
 - Required libraries listed in 'requirement.txt'
 - to install the requirements, 'pip install -r requirements.txt'
-- folder named images_to_encrypt
+- folder named <images_to_encrypt>
 
 ---
 
 ## Installation
-
 1. **Clone this repository:**
    ```bash
    git clone https://github.com/MJTham/Chaotic-PRNG-Design.git
@@ -31,8 +30,8 @@ This project implements a chaotic Pseudo-Random Number Generator (PRNG) based on
    ```bash
    python lcg_prng.py
    
-2.To encrypt image. 
-   Once the encryption completes, all of the encrypted and decrpyted images, histogram and grayscale image will be keep in output/<image_name>_result
+2.To encrypt image. Please keep your image into the folder named <images_to_encrypt>
+   Once the encryption completes, all of the encrypted and decrpyted images, histogram and grayscale image will be keep in output\<image_name>_result
    ```bash
    python image_encryption.py
    
@@ -41,8 +40,7 @@ This project implements a chaotic Pseudo-Random Number Generator (PRNG) based on
    ```bash
    python NIST_test.py
    
-
-6. To analyse security metrics
+4. To analyse security metrics
    The analysis result (txt format) will keep within the <image_name>_result folder.
    ```bash
    python analysis.py
